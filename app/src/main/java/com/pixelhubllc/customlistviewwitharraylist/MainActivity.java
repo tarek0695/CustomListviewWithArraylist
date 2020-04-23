@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Log.e("words", words + "");
+   
 
         listView.setAdapter(new CustomAdapter(this, words));
 
